@@ -1,0 +1,12 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.block-container {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

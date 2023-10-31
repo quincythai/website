@@ -5,7 +5,6 @@ import linkedinIcon from '/linkedin.svg';
 import githubIcon from '/github.svg';
 import mailIcon from '/mail.svg';
 import portrait from '/quincy2.jpeg';
-import { Divider } from '@mui/material';
 
 const Block = () => {
   return (
@@ -36,7 +35,6 @@ const Block = () => {
         </div>
       </div>
       <img src={portrait} alt="photo of me" className="portrait" />
-      <Divider />
     </div>
   );
 };
