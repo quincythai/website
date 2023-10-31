@@ -3,6 +3,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Navbar from './components/Navbar/Navbar';
+import Block from './components/Block/Block';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <Navbar links = {links}/>
+      <Block />
     </>
   )
 }
