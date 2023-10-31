@@ -1,25 +1,22 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
-import Navbar from './components/Navbar/Navbar';
-import Block from './components/Block/Block';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Homepage from "./pages/Homepage";
 
 function App() {
-  // const [count, setCount] = useState(0)
-  const links = [
-    { text: 'Home', url: '/home'},
-    { text: 'Contact', url: '/contact'}
-  ];
-
-  // TODO: add router
-
   return (
     <>
-      <Navbar links = {links}/>
-      <Block />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage/>} />
+          {/* <Route path="/about" element={} />
+          <Route path="/projects" element={} />
+          <Route path="/resume" element={} /> */}
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
