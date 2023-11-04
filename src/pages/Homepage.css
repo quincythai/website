@@ -1,12 +1,9 @@
+/* Homepage.css */
 .homepage-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-}
-
-.block-container {
-    flex: 0.8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    /* Additional styling, if needed */
+    min-height: 80vh;
+  }

@@ -1,9 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
 import Divider from "../components/Divider/Divider";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
-import Footer from "../components/Footer/Footer";
-
 import './Projects.css';
 
 const Projects = () => {
@@ -40,7 +37,6 @@ const Projects = () => {
           link="https://github.com/quincythai/youtube-replica"
         />
       </div>
-      <Footer />
     </>
   );
 };

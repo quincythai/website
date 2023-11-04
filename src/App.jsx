@@ -1,22 +1,22 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
-import AboutMe from "./pages/AboutMe";
-import Experience from "./pages/Experience";
-import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Homepage />
-        </Route>
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      <Navbar /> {/* Display Navbar on every route */}
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/projects" element={<Projects />} />
+        {/* Add more routes as needed */}
+      </Routes>
+      <Footer /> {/* Display Footer on every route */}
+    </BrowserRouter>
   );
 }
 

@@ -11,9 +11,7 @@ const Navbar = () => {
     { text: "About Me", url: "/aboutme" },
     { text: "Projects", url: "/projects" },
     { text: "Experience", url: "/experience" },
-    { text: "Contact", url: "/contact" },
   ];
-
 
   return (
     <nav className="navbar">
