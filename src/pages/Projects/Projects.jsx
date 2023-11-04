@@ -5,7 +5,7 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <>
+    <main>
       <h1 className="header">Projects</h1>
       <Divider />
       <div className="project-cards-container">
@@ -37,7 +37,7 @@ const Projects = () => {
           link="https://github.com/quincythai/youtube-replica"
         />
       </div>
-    </>
+    </main>
   );
 };
 
