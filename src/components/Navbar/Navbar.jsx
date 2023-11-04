@@ -1,11 +1,19 @@
 import React from 'react';
 import './Navbar.css';
 
+
 import fsdLogo from '../../assets/icons/fsd-logo.png';
 import reactLogo from '../../assets/icons/react.svg';
 
-const Navbar = (props) => {
-  const { links } = props;
+const Navbar = () => {
+  const links = [
+    { text: "Home", url: "/" },
+    { text: "About Me", url: "/aboutme" },
+    { text: "Projects", url: "/projects" },
+    { text: "Experience", url: "/experience" },
+    { text: "Contact", url: "/contact" },
+  ];
+
 
   return (
     <nav className="navbar">
@@ -15,8 +23,8 @@ const Navbar = (props) => {
       </div>
       <div className="right-section">
         <ul>
-          {links.map((link, index) => (
-            <li className="link" key={index}>
+          {links.map((link) => (
+            <li className="link" key={link.text}>
               <a href={link.url}>{link.text}</a>
             </li>
           ))}

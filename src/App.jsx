@@ -1,21 +1,22 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
+import AboutMe from "./pages/AboutMe";
+import Experience from "./pages/Experience";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Homepage/>} />
-          <Route path="/projects" element={<Projects/>} />
-          {/* <Route path="/experience" element={} />
-          <Route path="/contact" element={} /> */}
-        </Routes>
-      </BrowserRouter>
-    </>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
