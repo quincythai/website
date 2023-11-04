@@ -27,3 +27,8 @@
   display: flex;
   gap: 20px;
 }
+
+.navbar .right-section a {
+  color: var(--faded);
+  font-size: 18px;
+}

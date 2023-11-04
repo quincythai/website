@@ -20,7 +20,7 @@
 .intro-container .subtext {
   font-size: 20px;
   max-width: 400px;
-  color: rgba(0, 0, 0, 0.70);
+  color: var(--faded);
 }
 
 .intro-container img {

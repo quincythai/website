@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Block from "../components/Block/Block";
+import Footer from "../components/Footer/Footer";
 import "./Homepage.css";
 
 const Homepage = () => {
@@ -16,6 +17,7 @@ const Homepage = () => {
       <div className="block-container">
         <Block />
       </div>
+      <Footer />
     </div>
   );
 };

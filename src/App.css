@@ -1,5 +1,7 @@
 :root {
   --gray: #333;
+  --faded: rgba(0, 0, 0, 0.70);
+  --react-logo-color: #61dbfb;
 }
 
 body {
