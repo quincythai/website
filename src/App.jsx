@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import Projects from "./pages/Projects/Projects";
 import Navbar from "./components/Navbar/Navbar/";
 import Footer from "./components/Footer/Footer";
+import AboutMe from "./pages/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/projects" element={<Projects />} />
-        {/* Add more routes as needed */}
+        <Route path="/aboutme" element={<AboutMe/>} />
       </Routes>
       <Footer /> {/* Display Footer on every route */}
     </BrowserRouter>
