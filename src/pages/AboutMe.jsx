@@ -1,5 +1,5 @@
 import React from 'react';
-import Divider from "../../components/Divider/Divider";
+import Divider from "../components/Divider";
 import portrait from '/pfp.jpeg';
 
 const AboutMe = () => {
