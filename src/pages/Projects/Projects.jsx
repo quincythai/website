@@ -6,9 +6,16 @@ import './Projects.css';
 const Projects = () => {
   return (
     <main>
-      <h1 className="header">Projects</h1>
+      <h1 className='text-center text-5xl font-bold py-6'>Projects</h1>
       <Divider />
       <div className="project-cards-container">
+      <ProjectCard 
+          title="This website!"
+          tools="React, Tailwind CSS, Vite"
+          image="/fullstack.png"
+          description="My personal website"
+          link=""
+        />
         <ProjectCard 
           title="Bears, Bees, Honey!"
           tools="HTML, CSS, JavaScript"
