@@ -5,7 +5,7 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <main>
+    <main className="flex flex-col min-h-screen">
       <h1 className='text-center text-5xl font-bold py-6'>Projects</h1>
       <Divider />
       <div className="project-cards-container">
