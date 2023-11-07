@@ -6,7 +6,6 @@ const AboutMe = () => {
     return (
         <>
             <h1 className='text-center text-5xl font-bold py-6'>About Me</h1>
-            <Divider />
             <div className='px-24 mt-4 text-lg'>
                 <div className="float-right ml-4 mr-20 my-4">
                     <img className='w-56 rounded-full' src={portrait} alt="Portrait of myself" />
