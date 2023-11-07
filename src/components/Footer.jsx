@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-center relative w-full text-gray-400 bottom-0 left-0 py-5">
-      &#169; {(new Date().getFullYear())} Quincy Thai
+    <footer className="relative bottom-0 left-0 w-full py-5 text-center text-gray-400">
+      &#169; {new Date().getFullYear()} Quincy Thai
     </footer>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import fsdLogo from "/fsd-logo.png";
 import reactLogo from "/react.svg";
 
@@ -11,7 +11,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center border-b border-gray-100 shadow-md px-10 py-2 sticky top-0 bg-white z-10">
+    <nav className="sticky top-0 z-10 flex items-center justify-between border-b border-gray-100 bg-white px-10 py-2 shadow-md">
       <div className="flex items-center space-x-4">
         <img src={fsdLogo} alt="fsdLogo" className="w-12" />
         <img src={reactLogo} alt="reactLogo" className="w-12" />
@@ -19,7 +19,12 @@ const Navbar = () => {
       <ul className="flex space-x-4">
         {links.map((link) => (
           <li key={link.text}>
-            <a href={link.url} className="text-gray-500 text-lg hover:text-blue-500">{link.text}</a>
+            <a
+              href={link.url}
+              className="text-lg text-gray-500 hover:text-blue-500"
+            >
+              {link.text}
+            </a>
           </li>
         ))}
       </ul>

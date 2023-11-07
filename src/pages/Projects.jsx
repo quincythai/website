@@ -1,6 +1,6 @@
 import React from "react";
 import Divider from "../components/Divider";
-import ProjectCard from "../components/ProjectCard/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
