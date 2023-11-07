@@ -8,8 +8,8 @@ const AboutMe = () => {
             <h1 className='text-center text-5xl font-bold py-6'>About Me</h1>
             <Divider />
             <div className='px-24 mt-4 text-lg'>
-                <div className="float-right w-40 ml-4 my-4">
-                    <img className='w-40 rounded-full' src={portrait} alt="Portrait of myself" />
+                <div className="float-right ml-4 mr-20 my-4">
+                    <img className='w-56 rounded-full' src={portrait} alt="Portrait of myself" />
                 </div>
                 <p className="mb-4">
                     Hi! I'm Quincy and I'm currently a junior at UC Berkeley studying Computer Science with hopes of being a software engineer in the future.
