@@ -1,13 +1,7 @@
 import React from "react";
 
 const Divider = () => {
-  const style = {
-    borderTop: "1px solid gray",
-    width: "70%",
-    margin: "0 auto",
-  };
-
-  return <div style={style}></div>;
+  return <div className="border-t-2 w-[70%] my-0 mx-auto"></div>;
 };
 
 export default Divider;
