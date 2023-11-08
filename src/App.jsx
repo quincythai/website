@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/aboutme" element={<AboutMe/>} />
+        <Route path="/experience" element={<Experience />} />
       </Routes>
       <Footer /> {/* Display Footer on every route */}
     </BrowserRouter>

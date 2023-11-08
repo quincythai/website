@@ -1,12 +1,11 @@
 import React from "react";
 import Divider from "../components/Divider";
-import ProjectCard from "../components/ProjectCard/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <h1 className="text-center text-5xl font-bold py-6">Projects</h1>
-      <Divider />
       <div className="p-10 flex flex-col items-center space-y-10 flex-grow">
         <ProjectCard
           title="This website!"
