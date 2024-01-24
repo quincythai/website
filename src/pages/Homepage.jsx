@@ -7,7 +7,7 @@ import portrait from "/quincy2.jpeg";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className='flex flex-col flex-nowrap'>
       <div className="intro-container flex items-center justify-center gap-16 p-16">
         <div className="text-container flex flex-col gap-5">
           <p className="name m-0 text-5xl font-bold">Quincy Thai</p>

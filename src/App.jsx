@@ -18,7 +18,7 @@ function App() {
         <Route path="/aboutme" element={<AboutMe/>} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
-      <Footer /> {/* Display Footer on every route */}
+      {/* <Footer /> Display Footer on every route */}
     </BrowserRouter>
   );
 }

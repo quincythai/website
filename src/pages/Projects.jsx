@@ -4,9 +4,10 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <h1 className="text-center text-5xl font-bold py-6">Projects</h1>
-      <div className="p-10 flex flex-col items-center space-y-10 flex-grow">
+      <h2 className="text-center">To be added, check out my resume on experience in the meantime! </h2>
+      {/* <div className="p-10 flex flex-col items-center space-y-10 flex-grow">
         <ProjectCard
           title="This website!"
           tools="React, Tailwind CSS, Vite"
@@ -41,7 +42,7 @@ const Projects = () => {
           image="/youtube.png"
           link="https://github.com/quincythai/youtube-replica"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
